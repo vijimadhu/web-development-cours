@@ -1,0 +1,16 @@
+body{
+    background-color:light greenyellow;
+}
+.content1{
+    width:100px;
+    height:10px;
+    vertical-align: middle;
+    margin:50px;
+    border-radius: 80px;
+}
+.section2 .p5{
+   border: black;
+   text-shadow: brown;
+   font-style: italic;
+   font-size: 50px;
+}

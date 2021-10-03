@@ -1,0 +1,73 @@
+body{
+   background-color:rgb(163, 129, 117);
+   background-image:linear-gradient(to bottom right,rgb(243, 194, 103),pink);
+
+}
+.header,.footer{
+    width:60vw;
+    height:40vh;
+    background-color:lightsalmon;
+    margin:auto;
+    padding:1%;
+    overflow:hidden;
+    border:3px rgb(134, 134, 158) solid;
+    border-radius:5% 20%;
+    box-shadow: gray 5px 10px 20px;
+    box-sizing: border-box;
+}
+.header>h1{
+text-align: center;
+background-color:lightslategray;
+width:fit-content;
+margin:auto;
+padding:0.5%;
+}#logopic{
+    border-radius: 50%;
+    width:100px;
+    position:fixed;
+    z-index:auto;
+    top:20px;
+}
+.header>nav{
+    margin-left:150px;
+}
+.header>nav li{
+    list-style-type: none;
+}
+.header>nav a{
+    text-decoration: none;
+    float:left;
+    margin:2% 5%;
+    background-color: navajowhite;
+    padding:0.5%;
+    border-radius: 10%;
+    box-shadow:grey 5px 10px 10px;
+    transition:1s;
+}
+.header>nav a:hover{
+  background-color:rgb(35, 56, 56);
+    color:mediumaquamarine;
+}
+.icons{
+    float:right;
+}
+#footericons{
+    margin:auto;
+}
+.icons img{
+    width:40px;
+    margin:5px;
+}
+.content .par{
+    font-style: oblique;
+    font-size: 30px;
+}
+.content .cn{
+    background-color: #ff7200;
+    font-size: 20px;
+}
+
+.img{
+    width: 0px;
+    height:0px;
+}
